@@ -1,0 +1,28 @@
+{
+  "name": "nest-replay-guard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\""
+  },
+  "keywords": [
+    "nestjs",
+    "replay-attack"
+  ],
+  "author": "Yuchen Wang <contact@wangyuchen.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^10.2.10",
+    "@reactivex/rxjs": "^6.6.7",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.2"
+  }
+}
